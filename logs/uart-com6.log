@@ -1,0 +1,40 @@
+﻿
+[  164.148259][[36mI[0m] clk-sun252iw1: pll periph0 has been enabled, skip enable
+[  164.156545][[36mI[0m] axp333: Found AXP333 PMU
+[  164.162652][[36mI[0m] ZQ value = 0x606
+[  164.166863][[36mI[0m] DRAM_VCC set to 1500 mv
+[  164.174038][[36mI[0m] trefi:7.8ms
+[  164.178650][[36mI[0m] [AUTO DEBUG] single rank and full DQ!
+[  164.187069][[36mI[0m] trefi:7.8ms
+[  164.191698][[36mI[0m] [AUTO DEBUG] rank 0 row = 13 
+[  164.197145][[36mI[0m] [AUTO DEBUG] rank 0 bank = 8 
+[  164.202690][[36mI[0m] [AUTO DEBUG] rank 0 page size = 2 KB 
+[  164.208966][[36mI[0m] DRAM BOOT DRIVER INFO: V0.22
+[  164.214396][[36mI[0m] DRAM CLK = 1056 MHz
+[  164.218973][[36mI[0m] DRAM Type = 3 (2:DDR2, 3:DDR3, 6:LPDDR2, 7:LPDDR3)
+[  164.226504][[36mI[0m] DRAMC ZQ value: 0x7b6bfb
+[  164.231557][[36mI[0m] DRAM ODT off.
+[  164.237770][[36mI[0m] trefi:7.8ms
+[  164.242344][[36mI[0m] trefi: 7.8us
+[  164.246167][[36mI[0m] DRAM Size = 128 MB
+[  164.250653][[36mI[0m] dram_tpr11:0x460000
+[  164.255222][[36mI[0m] dram_tpr12:0x55
+[  164.259417][[36mI[0m] dram_tpr13:0x34046501
+[  164.265301][[36mI[0m] DRAM simple test OK.
+[  165.555677][[36mI[0m] c907_boot: starting the C907 (rv32) at 0x40000000, this core sleeps afterwards
+STEP4-BOARD-CONSOLE-READY
+STEP4-SOFT-TICK-ON cpu_hz=1008000000 cycles_per_tick=1008000
+
+ \ | /
+- RT -     Thread Operating System
+ / | \     5.4.0 build Oct 31 2026 18:36:20
+ 2006 - 2026 Copyright by RT-Thread team
+STEP4-APP-INIT-CREATE
+STEP4-APP-INIT-CREATED tid=0x4005a5fc main
+STEP4-PROBE-R3: ENV-INIT-CREATE
+STEP4-PROBE-R3: APP-INIT-CREATE
+msh >STEP4-MAIN-ENTER-A
+STEP4-MAIN-ENTER-B tick=0
+STEP4-MAIN-ENTER
+STEP4-SOFT-TICK-ON tick=0 prio=21
+STEP4-MSH-SCHED found=1 shell=tshell main_prio=21
